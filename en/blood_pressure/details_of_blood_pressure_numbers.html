@@ -6,16 +6,26 @@
     <title>Insights into Blood Pressure Readings</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: 'Nunito', sans-serif;
             line-height: 1.6;
-            margin: 16px;
-            background-color: #EAE8F3;
+            background-color: transparent;
         }
 
         h1 {
             color: #191D30;
             text-align: center;
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 18px;
         }
 
         ul {
@@ -26,11 +36,8 @@
         li {
             background-color: #fff;
             border-radius: 16px;
-            padding: 16px;
-        }
-
-        h2 {
-            margin: 0px;
+            margin-bottom: 20px;
+            padding: 20px;
         }
 
         h2, p {
@@ -42,12 +49,19 @@
         }
 
         ul ul {
-            margin-top: 12px;
+            margin-top: 10px;
             margin-bottom: 0;
         }
 
         ul ul li {
             margin-bottom: 0;
+        }
+
+        ul.pressure-categories li {
+            padding: 0;
+            margin-top: 10px;
+            margin-left: 20px;
+            list-style: circle;
         }
     </style>
 </head>
