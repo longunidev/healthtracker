@@ -7,6 +7,34 @@
     <title>Понимание пульса</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #191D30;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fff;
+        }
+
+        .training-zones {
+            list-style: circle;
+            margin-left: 16px;
+        }
+
+        .training-zones li {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 
 <body>
@@ -58,7 +86,7 @@
 
         <p>Во время упражнений интенсивность тренировки можно оценить по диапазонам целевого пульса:</p>
 
-        <ul style="margin-left: 16px;">
+        <ul class="training-zones">
             <li><strong>Разминка:</strong> Менее 60% от HRmax</li>
             <li><strong>Целевая тренировка:</strong> 60% - 79% от HRmax</li>
             <li><strong>Высокая интенсивность:</strong> 80% - 89% от HRmax</li>

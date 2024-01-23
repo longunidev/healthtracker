@@ -7,6 +7,34 @@
     <title>Comprendre le rythme cardiaque</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #191D30;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fff;
+        }
+
+        .training-zones {
+            list-style: circle;
+            margin-left: 16px;
+        }
+
+        .training-zones li {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 
 <body>
@@ -60,7 +88,7 @@
         <p>Pendant l'exercice, l'intensité de l'entraînement peut être évaluée en utilisant des plages de rythme
             cardiaque cible :</p>
 
-        <ul style="margin-left: 16px;">
+        <ul class="training-zones">
             <li><strong>Échauffement :</strong> Moins de 60 % de la FCmax</li>
             <li><strong>Entraînement ciblé :</strong> 60 % à 79 % de la FCmax</li>
             <li><strong>Haute intensité :</strong> 80 % à 89 % de la FCmax</li>

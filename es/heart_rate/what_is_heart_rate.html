@@ -7,6 +7,34 @@
     <title>Comprendiendo la frecuencia cardíaca</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #191D30;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fff;
+        }
+
+        .training-zones {
+            list-style: circle;
+            margin-left: 16px;
+        }
+
+        .training-zones li {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,10 +42,13 @@
     <h1>Comprendiendo la frecuencia cardíaca</h1>
 
     <div style="background-color: white; border-radius: 16px; padding: 16px;">
-        <p>Su frecuencia cardíaca, también conocida como pulso, representa la cantidad de latidos del corazón por minuto.</p>
+        <p>Su frecuencia cardíaca, también conocida como pulso, representa la cantidad de latidos del corazón por
+            minuto.</p>
 
-        <p>Con cada latido, el corazón bombea sangre por todo el cuerpo, suministrando oxígeno para las funciones corporales
-            adecuadas. La carga de trabajo del corazón en la circulación sanguínea varía según diferentes estados, como el
+        <p>Con cada latido, el corazón bombea sangre por todo el cuerpo, suministrando oxígeno para las funciones
+            corporales
+            adecuadas. La carga de trabajo del corazón en la circulación sanguínea varía según diferentes estados, como
+            el
             reposo o el ejercicio.</p>
 
         <p>Los dos índices clave de la frecuencia cardíaca son la frecuencia cardíaca en reposo y la frecuencia cardíaca
@@ -57,10 +88,11 @@
             </tr>
         </table>
 
-        <p>Durante el ejercicio, la intensidad del entrenamiento se puede medir utilizando los rangos de frecuencia cardíaca
-        objetivo:</p>
+        <p>Durante el ejercicio, la intensidad del entrenamiento se puede medir utilizando los rangos de frecuencia
+            cardíaca
+            objetivo:</p>
 
-        <ul style="margin-left: 16px;">
+        <ul class="training-zones">
             <li><strong>Calentamiento:</strong> Menos del 60% de HRmax</li>
             <li><strong>Entrenamiento objetivo:</strong> 60% a 79% de HRmax</li>
             <li><strong>Alta intensidad:</strong> 80% a 89% de HRmax</li>

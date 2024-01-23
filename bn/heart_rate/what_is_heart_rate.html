@@ -7,6 +7,34 @@
     <title>হৃদয়ের হার বোঝা</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #191D30;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fff;
+        }
+
+        .training-zones {
+            list-style: circle;
+            margin-left: 16px;
+        }
+
+        .training-zones li {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,7 +44,8 @@
     <div style="background-color: white; border-radius: 16px; padding: 16px;">
         <p>আপনার হৃদয়ের হার, যা পাল্স হিসেবেও পরিচিত, প্রতি মিনিটের হৃদয়ের ধাক্কা প্রতিনিয়ত প্রতিনির্ভর করে।</p>
 
-        <p>প্রত্যেক হৃদয়ের ধাক্কায়, হৃদয়টি শরীরে রক্ত পাঠায়, যাতে ঠিকমতো শারীরিক কাজ করার জন্য অক্সিজেন সরবরাহ করা হয়।
+        <p>প্রত্যেক হৃদয়ের ধাক্কায়, হৃদয়টি শরীরে রক্ত পাঠায়, যাতে ঠিকমতো শারীরিক কাজ করার জন্য অক্সিজেন সরবরাহ করা
+            হয়।
             বিভিন্ন অবস্থায়, যেমন বিশ্রাম বা ব্যায়াম, অনুযায়ী রক্ত পাঠানোর হৃদয়ের কাজের পরিমাণ পরিবর্তন হয়।</p>
 
         <p>বিশ্রামের হৃদয়ের হার এবং লক্ষ্য হার হল দুটি গুরুত্বপূর্ণ হৃদয়ের হার সূচক। বিশ্রামের হৃদয়ের হার মাপে
@@ -58,7 +87,7 @@
 
         <p>ব্যায়ামের সময়, ট্রেনিং মাত্রা লক্ষ্য হৃদয়ের হার পরিসর ব্যবহার করা যায়:</p>
 
-        <ul style="margin-left: 16px;">
+        <ul class="training-zones">
             <li><strong>শীতলবস্থা:</strong> এইচআরম্যাক্সের 60% এর কম</li>
             <li><strong>লক্ষ্য প্রশিক্ষণ:</strong> এইচআরম্যাক্সের 60% থেকে 79%</li>
             <li><strong>উচ্চ মাত্রা:</strong> এইচআরম্যাক্সের 80% থেকে 89%</li>
