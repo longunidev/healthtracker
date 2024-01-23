@@ -31,3 +31,13 @@ li {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+.normal-ul {
+    list-style: circle;
+    margin-left: 16px;
+}
+
+.normal-ul li {
+    margin: 0px;
+    padding: 0px;
+}
