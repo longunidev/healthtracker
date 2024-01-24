@@ -1,109 +1,105 @@
 <!doctype html>
 <html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Understanding Heart Rate</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://longunidev.github.io/healthtracker-insights/style/styles.css"
-    />
-    <style>
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-      }
 
-      th,
-      td {
-        border: 1px solid #191d30;
-        padding: 8px;
-        text-align: left;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>理解心率</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap" />
+  <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css" />
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
 
-      th {
-        background-color: #fff;
-      }
+    th,
+    td {
+      border: 1px solid #191d30;
+      padding: 8px;
+      text-align: left;
+    }
 
-      .training-zones {
-        list-style: circle;
-        margin-left: 16px;
-      }
+    th {
+      background-color: #fff;
+    }
 
-      .training-zones li {
-        margin: 0px;
-        padding: 0px;
-      }
-    </style>
-  </head>
+    .training-zones {
+      list-style: circle;
+      margin-left: 16px;
+    }
 
-  <body>
-    <h1>Understanding Heart Rate</h1>
+    .training-zones li {
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
 
-    <div style="background-color: white; border-radius: 16px; padding: 16px">
-      <p>您的心率，也称为脉搏，表示每分钟的心跳次数。</p>
+<body>
+  <h1>理解心率</h1>
 
-      <p>
-        每次心跳时，心脏将血液泵送到全身，为身体的正常功能提供氧气。心脏在循环血液方面的工作量因不同状态（如休息或运动）而异。
-      </p>
+  <div style="background-color: white; border-radius: 16px; padding: 16px">
+    <p>您的心率，也称为脉搏，表示每分钟的心跳次数。</p>
 
-      <p>
-        两个关键的心率指标是静息心率和目标心率。静息心率测量您在休息时的心跳次数，而目标心率指示锻炼时的理想心率。
-      </p>
+    <p>
+      每次心跳时，心脏将血液泵送到全身，为身体的正常功能提供氧气。心脏在循环血液方面的工作量因不同状态（如休息或运动）而异。
+    </p>
 
-      <table>
-        <caption>
-          静息心率范围
-        </caption>
-        <tbody>
-          <tr>
-            <th>年龄组</th>
-            <th>静息心率范围（每分钟心跳次数）</th>
-          </tr>
-          <tr>
-            <td>儿童（1-2岁）</td>
-            <td>80-130</td>
-          </tr>
-          <tr>
-            <td>儿童（3-4岁）</td>
-            <td>80-120</td>
-          </tr>
-          <tr>
-            <td>儿童（5-6岁）</td>
-            <td>75-115</td>
-          </tr>
-          <tr>
-            <td>儿童（7-9岁）</td>
-            <td>70-110</td>
-          </tr>
-          <tr>
-            <td>儿童（10-15岁）</td>
-            <td>70-100</td>
-          </tr>
-          <tr>
-            <td>人（15岁以上）</td>
-            <td>60-100</td>
-          </tr>
-        </tbody>
-      </table>
+    <p>
+      两个关键的心率指标是静息心率和目标心率。静息心率测量您在休息时的心跳次数，而目标心率指示锻炼时的理想心率。
+    </p>
 
-      <p>在运动时，可以使用目标心率范围来衡量训练强度：</p>
+    <table>
+      <caption>
+        静息心率范围
+      </caption>
+      <tbody>
+        <tr>
+          <th>年龄组</th>
+          <th>静息心率范围（每分钟心跳次数）</th>
+        </tr>
+        <tr>
+          <td>儿童（1-2岁）</td>
+          <td>80-130</td>
+        </tr>
+        <tr>
+          <td>儿童（3-4岁）</td>
+          <td>80-120</td>
+        </tr>
+        <tr>
+          <td>儿童（5-6岁）</td>
+          <td>75-115</td>
+        </tr>
+        <tr>
+          <td>儿童（7-9岁）</td>
+          <td>70-110</td>
+        </tr>
+        <tr>
+          <td>儿童（10-15岁）</td>
+          <td>70-100</td>
+        </tr>
+        <tr>
+          <td>人（15岁以上）</td>
+          <td>60-100</td>
+        </tr>
+      </tbody>
+    </table>
 
-      <ul class="training-zones">
-        <li><strong>热身：</strong> HRmax的60%以下</li>
-        <li><strong>目标训练：</strong> HRmax的60%至79%</li>
-        <li><strong>高强度：</strong> HRmax的80%至89%</li>
-        <li><strong>极限：</strong> 等于或大于HRmax的90%</li>
-      </ul>
+    <p>在运动时，可以使用目标心率范围来衡量训练强度：</p>
 
-      <p>
-        请注意，我们的应用程序不能替代专业的医疗服务。如果您持续出现心率升高或任何与心脏相关的问题，及时咨询医生非常重要。
-      </p>
-    </div>
-  </body>
+    <ul class="training-zones">
+      <li><strong>热身：</strong> HRmax的60%以下</li>
+      <li><strong>目标训练：</strong> HRmax的60%至79%</li>
+      <li><strong>高强度：</strong> HRmax的80%至89%</li>
+      <li><strong>极限：</strong> 等于或大于HRmax的90%</li>
+    </ul>
+
+    <p>
+      请注意，我们的应用程序不能替代专业的医疗服务。如果您持续出现心率升高或任何与心脏相关的问题，及时咨询医生非常重要。
+    </p>
+  </div>
+</body>
+
 </html>
