@@ -1,99 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>心拍数の理解</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://longunidev.github.io/healthtracker-insights/style/styles.css"
+    />
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
 
-        th,
-        td {
-            border: 1px solid #191D30;
-            padding: 8px;
-            text-align: left;
-        }
+      th,
+      td {
+        border: 1px solid #191d30;
+        padding: 8px;
+        text-align: left;
+      }
 
-        th {
-            background-color: #fff;
-        }
+      th {
+        background-color: #fff;
+      }
 
-        .training-zones {
-            list-style: circle;
-            margin-left: 16px;
-        }
+      .training-zones {
+        list-style: circle;
+        margin-left: 16px;
+      }
 
-        .training-zones li {
-            margin: 0px;
-            padding: 0px;
-        }
+      .training-zones li {
+        margin: 0px;
+        padding: 0px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>心拍数の理解</h1>
 
-    <div style="background-color: white; border-radius: 16px; padding: 16px;">
-        <p>心拍数は、脈拍としても知られており、1分間の心拍数を表します。</p>
+    <div style="background-color: white; border-radius: 16px; padding: 16px">
+      <p>心拍数は、脈拍としても知られており、1分間の心拍数を表します。</p>
 
-        <p>各心拍で、心臓は体全体に血液を送り、正しい身体機能のための酸素を供給します。
-            休息または運動など、さまざまな状態における血液の循環量は心臓の負担が異なります。</p>
+      <p>
+        各心拍で、心臓は体全体に血液を送り、正しい身体機能のための酸素を供給します。
+        休息または運動など、さまざまな状態における血液の循環量は心臓の負担が異なります。
+      </p>
 
-        <p>2つの主要な心拍指標は安静時心拍数と目標心拍数です。安静時心拍数は、休息時の心臓の拍動を測定し、目標心拍数は運動中の理想的な心拍数を示します。</p>
+      <p>
+        2つの主要な心拍指標は安静時心拍数と目標心拍数です。安静時心拍数は、休息時の心臓の拍動を測定し、目標心拍数は運動中の理想的な心拍数を示します。
+      </p>
 
-        <table>
-            <caption>安静時心拍数の範囲</caption>
-            <tr>
-                <th>年齢グループ</th>
-                <th>安静時心拍数の範囲（1分あたりの拍数）</th>
-            </tr>
-            <tr>
-                <td>子供（1-2歳）</td>
-                <td>80-130</td>
-            </tr>
-            <tr>
-                <td>子供（3-4歳）</td>
-                <td>80-120</td>
-            </tr>
-            <tr>
-                <td>子供（5-6歳）</td>
-                <td>75-115</td>
-            </tr>
-            <tr>
-                <td>子供（7-9歳）</td>
-                <td>70-110</td>
-            </tr>
-            <tr>
-                <td>子供（10-15歳）</td>
-                <td>70-100</td>
-            </tr>
-            <tr>
-                <td>15歳以上の人々</td>
-                <td>60-100</td>
-            </tr>
-        </table>
+      <table>
+        <caption>
+          安静時心拍数の範囲
+        </caption>
+        <tbody>
+          <tr>
+            <th>年齢グループ</th>
+            <th>安静時心拍数の範囲（1分あたりの拍数）</th>
+          </tr>
+          <tr>
+            <td>子供（1-2歳）</td>
+            <td>80-130</td>
+          </tr>
+          <tr>
+            <td>子供（3-4歳）</td>
+            <td>80-120</td>
+          </tr>
+          <tr>
+            <td>子供（5-6歳）</td>
+            <td>75-115</td>
+          </tr>
+          <tr>
+            <td>子供（7-9歳）</td>
+            <td>70-110</td>
+          </tr>
+          <tr>
+            <td>子供（10-15歳）</td>
+            <td>70-100</td>
+          </tr>
+          <tr>
+            <td>15歳以上の人々</td>
+            <td>60-100</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <p>運動中には、目標心拍数の範囲を使用してトレーニングの強度を測定できます：</p>
+      <p>
+        運動中には、目標心拍数の範囲を使用してトレーニングの強度を測定できます：
+      </p>
 
-        <ul class="training-zones">
-            <li><strong>ウォームアップ：</strong>HRmaxの60％未満</li>
-            <li><strong>ターゲットトレーニング：</strong>HRmaxの60％から79％</li>
-            <li><strong>ハイインテンシティ：</strong>HRmaxの80％から89％</li>
-            <li><strong>エクストリーム：</strong>HRmaxの90％以上</li>
-        </ul>
+      <ul class="training-zones">
+        <li><strong>ウォームアップ：</strong>HRmaxの60％未満</li>
+        <li><strong>ターゲットトレーニング：</strong>HRmaxの60％から79％</li>
+        <li><strong>ハイインテンシティ：</strong>HRmaxの80％から89％</li>
+        <li><strong>エクストリーム：</strong>HRmaxの90％以上</li>
+      </ul>
 
-        <p>弊社のアプリは専門の医療サービスの代替となるものではありません。持続的に高い心拍数や心臓に関する懸念がある場合は、迅速に医師に相談することが重要です。</p>
-
+      <p>
+        弊社のアプリは専門の医療サービスの代替となるものではありません。持続的に高い心拍数や心臓に関する懸念がある場合は、迅速に医師に相談することが重要です。
+      </p>
     </div>
-
-</body>
-
+  </body>
 </html>

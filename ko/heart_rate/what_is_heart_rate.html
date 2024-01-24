@@ -1,102 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>심박수 이해</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://longunidev.github.io/healthtracker-insights/style/styles.css"
+    />
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
 
-        th,
-        td {
-            border: 1px solid #191D30;
-            padding: 8px;
-            text-align: left;
-        }
+      th,
+      td {
+        border: 1px solid #191d30;
+        padding: 8px;
+        text-align: left;
+      }
 
-        th {
-            background-color: #fff;
-        }
+      th {
+        background-color: #fff;
+      }
 
-        .training-zones {
-            list-style: circle;
-            margin-left: 16px;
-        }
+      .training-zones {
+        list-style: circle;
+        margin-left: 16px;
+      }
 
-        .training-zones li {
-            margin: 0px;
-            padding: 0px;
-        }
+      .training-zones li {
+        margin: 0px;
+        padding: 0px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>심박수 이해</h1>
 
-    <div style="background-color: white; border-radius: 16px; padding: 16px;">
-        <p>심박수 또는 맥박은 분당 심장 박동수를 나타냅니다.</p>
+    <div style="background-color: white; border-radius: 16px; padding: 16px">
+      <p>심박수 또는 맥박은 분당 심장 박동수를 나타냅니다.</p>
 
-        <p>매 박동마다 심장은 몸 전체에 혈액을 펌핑하여 적절한 신체 기능을 위해 산소를 공급합니다. 휴식 또는 운동과
-            같은
-            다양한 상태에 따라 심장이 혈액을 순환시키는 작업량이 달라집니다.</p>
+      <p>
+        매 박동마다 심장은 몸 전체에 혈액을 펌핑하여 적절한 신체 기능을 위해
+        산소를 공급합니다. 휴식 또는 운동과 같은 다양한 상태에 따라 심장이
+        혈액을 순환시키는 작업량이 달라집니다.
+      </p>
 
-        <p>휴식 심박수와 목표 심박수는 두 가지 주요 심박수 지수입니다. 휴식 심박수는 휴식 시 심장이 박동하는 속도를
-            측정하며, 목표 심박수는 운동 중 이상적인 속도를 나타냅니다.</p>
+      <p>
+        휴식 심박수와 목표 심박수는 두 가지 주요 심박수 지수입니다. 휴식
+        심박수는 휴식 시 심장이 박동하는 속도를 측정하며, 목표 심박수는 운동 중
+        이상적인 속도를 나타냅니다.
+      </p>
 
-        <table>
-            <caption>휴식 심박수 범위</caption>
-            <tr>
-                <th>나이 그룹</th>
-                <th>휴식 심박수 범위 (분당 박동수)</th>
-            </tr>
-            <tr>
-                <td>어린이 (1-2 세)</td>
-                <td>80-130</td>
-            </tr>
-            <tr>
-                <td>어린이 (3-4 세)</td>
-                <td>80-120</td>
-            </tr>
-            <tr>
-                <td>어린이 (5-6 세)</td>
-                <td>75-115</td>
-            </tr>
-            <tr>
-                <td>어린이 (7-9 세)</td>
-                <td>70-110</td>
-            </tr>
-            <tr>
-                <td>어린이 (10-15 세)</td>
-                <td>70-100</td>
-            </tr>
-            <tr>
-                <td>성인 (15 세 이상)</td>
-                <td>60-100</td>
-            </tr>
-        </table>
+      <table>
+        <caption>
+          휴식 심박수 범위
+        </caption>
+        <tbody>
+          <tr>
+            <th>나이 그룹</th>
+            <th>휴식 심박수 범위 (분당 박동수)</th>
+          </tr>
+          <tr>
+            <td>어린이 (1-2 세)</td>
+            <td>80-130</td>
+          </tr>
+          <tr>
+            <td>어린이 (3-4 세)</td>
+            <td>80-120</td>
+          </tr>
+          <tr>
+            <td>어린이 (5-6 세)</td>
+            <td>75-115</td>
+          </tr>
+          <tr>
+            <td>어린이 (7-9 세)</td>
+            <td>70-110</td>
+          </tr>
+          <tr>
+            <td>어린이 (10-15 세)</td>
+            <td>70-100</td>
+          </tr>
+          <tr>
+            <td>성인 (15 세 이상)</td>
+            <td>60-100</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <p>운동 중에는 목표 심박수 범위를 사용하여 훈련 강도를 파악할 수 있습니다:</p>
+      <p>
+        운동 중에는 목표 심박수 범위를 사용하여 훈련 강도를 파악할 수 있습니다:
+      </p>
 
-        <ul class="training-zones">
-            <li><strong>웜업:</strong> 최대 심장 박동수의 60% 미만</li>
-            <li><strong>목표 훈련:</strong> 최대 심장 박동수의 60%에서 79%</li>
-            <li><strong>고강도:</strong> 최대 심장 박동수의 80%에서 89%</li>
-            <li><strong>극한:</strong> 최대 심장 박동수의 90% 이상</li>
-        </ul>
+      <ul class="training-zones">
+        <li><strong>웜업:</strong> 최대 심장 박동수의 60% 미만</li>
+        <li><strong>목표 훈련:</strong> 최대 심장 박동수의 60%에서 79%</li>
+        <li><strong>고강도:</strong> 최대 심장 박동수의 80%에서 89%</li>
+        <li><strong>극한:</strong> 최대 심장 박동수의 90% 이상</li>
+      </ul>
 
-        <p>저희 앱은 전문 의료 서비스의 대체로 사용되지 않음을 인지하십시오. 지속적으로 증가하는 심박수나
-            심장과 관련된 어떠한 문제가 있을 경우, 즉시 의사와 상담하는 것이 중요합니다.</p>
-
+      <p>
+        저희 앱은 전문 의료 서비스의 대체로 사용되지 않음을 인지하십시오.
+        지속적으로 증가하는 심박수나 심장과 관련된 어떠한 문제가 있을 경우, 즉시
+        의사와 상담하는 것이 중요합니다.
+      </p>
     </div>
-
-</body>
-
+  </body>
 </html>

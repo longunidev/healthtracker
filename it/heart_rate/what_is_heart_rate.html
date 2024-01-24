@@ -1,109 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comprensione della frequenza cardiaca</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
-    <link rel="stylesheet" href="https://longunidev.github.io/healthtracker-insights/style/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://longunidev.github.io/healthtracker-insights/style/styles.css"
+    />
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
 
-        th,
-        td {
-            border: 1px solid #191D30;
-            padding: 8px;
-            text-align: left;
-        }
+      th,
+      td {
+        border: 1px solid #191d30;
+        padding: 8px;
+        text-align: left;
+      }
 
-        th {
-            background-color: #fff;
-        }
+      th {
+        background-color: #fff;
+      }
 
-        .training-zones {
-            list-style: circle;
-            margin-left: 16px;
-        }
+      .training-zones {
+        list-style: circle;
+        margin-left: 16px;
+      }
 
-        .training-zones li {
-            margin: 0px;
-            padding: 0px;
-        }
+      .training-zones li {
+        margin: 0px;
+        padding: 0px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>Comprensione della frequenza cardiaca</h1>
 
-    <div style="background-color: white; border-radius: 16px; padding: 16px;">
-        <p>La tua frequenza cardiaca, nota anche come polso, rappresenta il numero di battiti cardiaci al minuto.</p>
+    <div style="background-color: white; border-radius: 16px; padding: 16px">
+      <p>
+        La tua frequenza cardiaca, nota anche come polso, rappresenta il numero
+        di battiti cardiaci al minuto.
+      </p>
 
-        <p>Con ogni battito cardiaco, il cuore pompa sangue in tutto il corpo, fornendo ossigeno per le corrette
-            funzioni corporee.
-            Il carico di lavoro del cuore nel circolare il sangue varia in base a diversi stati, come il riposo o
-            l'esercizio fisico.</p>
+      <p>
+        Con ogni battito cardiaco, il cuore pompa sangue in tutto il corpo,
+        fornendo ossigeno per le corrette funzioni corporee. Il carico di lavoro
+        del cuore nel circolare il sangue varia in base a diversi stati, come il
+        riposo o l'esercizio fisico.
+      </p>
 
-        <p>Due indicatori chiave della frequenza cardiaca sono la frequenza cardiaca a riposo e la frequenza cardiaca
-            target. La frequenza cardiaca a riposo misura
-            come batte il tuo cuore quando sei a riposo, mentre la frequenza cardiaca target indica il tasso ideale
-            durante l'esercizio fisico.
-        </p>
+      <p>
+        Due indicatori chiave della frequenza cardiaca sono la frequenza
+        cardiaca a riposo e la frequenza cardiaca target. La frequenza cardiaca
+        a riposo misura come batte il tuo cuore quando sei a riposo, mentre la
+        frequenza cardiaca target indica il tasso ideale durante l'esercizio
+        fisico.
+      </p>
 
-        <table>
-            <caption>Intervallo della frequenza cardiaca a riposo</caption>
-            <tr>
-                <th>Gruppo di età</th>
-                <th>Intervallo della frequenza cardiaca a riposo (battiti al minuto)</th>
-            </tr>
-            <tr>
-                <td>Bambini (1-2 anni)</td>
-                <td>80-130</td>
-            </tr>
-            <tr>
-                <td>Bambini (3-4 anni)</td>
-                <td>80-120</td>
-            </tr>
-            <tr>
-                <td>Bambini (5-6 anni)</td>
-                <td>75-115</td>
-            </tr>
-            <tr>
-                <td>Bambini (7-9 anni)</td>
-                <td>70-110</td>
-            </tr>
-            <tr>
-                <td>Bambini (10-15 anni)</td>
-                <td>70-100</td>
-            </tr>
-            <tr>
-                <td>Persone (oltre i 15 anni)</td>
-                <td>60-100</td>
-            </tr>
-        </table>
+      <table>
+        <caption>
+          Intervallo della frequenza cardiaca a riposo
+        </caption>
+        <tbody>
+          <tr>
+            <th>Gruppo di età</th>
+            <th>
+              Intervallo della frequenza cardiaca a riposo (battiti al minuto)
+            </th>
+          </tr>
+          <tr>
+            <td>Bambini (1-2 anni)</td>
+            <td>80-130</td>
+          </tr>
+          <tr>
+            <td>Bambini (3-4 anni)</td>
+            <td>80-120</td>
+          </tr>
+          <tr>
+            <td>Bambini (5-6 anni)</td>
+            <td>75-115</td>
+          </tr>
+          <tr>
+            <td>Bambini (7-9 anni)</td>
+            <td>70-110</td>
+          </tr>
+          <tr>
+            <td>Bambini (10-15 anni)</td>
+            <td>70-100</td>
+          </tr>
+          <tr>
+            <td>Persone (oltre i 15 anni)</td>
+            <td>60-100</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <p>Durante l'esercizio fisico, l'intensità dell'allenamento può essere valutata utilizzando intervalli di
-            frequenza cardiaca target:</p>
+      <p>
+        Durante l'esercizio fisico, l'intensità dell'allenamento può essere
+        valutata utilizzando intervalli di frequenza cardiaca target:
+      </p>
 
-        <ul class="training-zones">
-            <li><strong>Riscaldamento:</strong> Inferiore al 60% di HRmax</li>
-            <li><strong>Allenamento target:</strong> 60% - 79% di HRmax</li>
-            <li><strong>Alta intensità:</strong> 80% - 89% di HRmax</li>
-            <li><strong>Estremo:</strong> Uguale o superiore al 90% di HRmax</li>
-        </ul>
+      <ul class="training-zones">
+        <li><strong>Riscaldamento:</strong> Inferiore al 60% di HRmax</li>
+        <li><strong>Allenamento target:</strong> 60% - 79% di HRmax</li>
+        <li><strong>Alta intensità:</strong> 80% - 89% di HRmax</li>
+        <li><strong>Estremo:</strong> Uguale o superiore al 90% di HRmax</li>
+      </ul>
 
-        <p>Sii consapevole che la nostra app non è un sostituto dei servizi sanitari professionali. Se sperimenti una
-            frequenza cardiaca costantemente elevata o qualsiasi preoccupazione legata al cuore, è cruciale consultare
-            prontamente il tuo medico.
-        </p>
-
+      <p>
+        Sii consapevole che la nostra app non è un sostituto dei servizi
+        sanitari professionali. Se sperimenti una frequenza cardiaca
+        costantemente elevata o qualsiasi preoccupazione legata al cuore, è
+        cruciale consultare prontamente il tuo medico.
+      </p>
     </div>
-
-</body>
-
+  </body>
 </html>
